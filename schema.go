@@ -34,10 +34,9 @@ const (
 	TypePoint        = "POINT"
 	TypePolygon      = "POLYGON"
 )
-
+var DefaultSchema  = "public"
 // specific for PostgreSQL driver + SQL std
 const (
-	DefaultSchema  = "public"
 	SemiColon      = ";"
 	AlterTable     = "ALTER TABLE "
 	Add            = " ADD "
